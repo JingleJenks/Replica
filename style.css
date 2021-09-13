@@ -33,6 +33,7 @@ ul {
 .nav_center {
   padding: 0.5vw;
   font-size: 20px;
+  width: 20vw;
 }
 
 .nav_right {
@@ -68,4 +69,7 @@ ul {
   width: 50vw;
   margin-left: auto;
   margin-right: auto;
+}
+.beer_card article {
+  text-align: center;
 }
