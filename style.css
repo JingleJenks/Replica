@@ -73,3 +73,15 @@ ul {
 .beer_card article {
   text-align: center;
 }
+h1 {
+  font-size: 25px;
+}
+h2 {
+  font-size: 15px;
+  color: var(--small_text);
+}
+.info_line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
