@@ -66,6 +66,10 @@ ul {
 }
 
 /* BEER CARD */
+
+/* article {
+  width: 80%;
+} */
 .beer_card {
   display: flex;
   align-items: flex-end;
@@ -150,9 +154,9 @@ aside {
   border-radius: 10px 10px;
   float: right;
 }
-img {
+/* img {
   width: 100%;
-}
+} */
 /* MINI TITLE */
 .mini_title {
   display: flex;
@@ -169,31 +173,32 @@ img {
 }
 /* RECIPE CARDS */
 .recipes {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  /* grid-gap: 1rem; */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 .recipe_card {
   display: grid;
   justify-content: flex-start;
-  width: 15vw;
+  width: 13vw;
 }
 
 .recipe_sq {
-  width: 18vw;
+  width: 13vw;
   height: auto;
 }
 
 figure {
   display: flex;
   flex-direction: column;
-  width: 18vw;
+  width: 13vw;
   align-items: center;
   margin: 0px;
   position: relative;
 }
 figcaption {
   background-color: rgba(0, 0, 0, 0.7);
-  width: 18vw;
+  width: 13vw;
   position: absolute;
   float: inline-end;
   color: white;
@@ -204,7 +209,7 @@ figcaption {
 .recipe_info {
   display: grid;
   grid-template-columns: 70% 30%;
-  width: 18vw;
+  width: 13vw;
   padding: 0px;
   align-items: center;
 }
