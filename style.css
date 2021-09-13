@@ -153,10 +153,7 @@ aside {
 img {
   width: 100%;
 }
-.recipe_sq {
-  width: 20vw;
-  height: auto;
-}
+/* MINI TITLE */
 .mini_title {
   display: flex;
   align-items: flex-end;
@@ -170,19 +167,34 @@ img {
 .from {
   margin-top: 0px;
 }
+/* RECIPE CARDS */
+
+.recipe_card {
+  display: grid;
+  justify-content: flex-start;
+  width: 15vw;
+}
+
+.recipe_sq {
+  width: 18vw;
+  height: auto;
+}
+
 figure {
   display: flex;
   flex-direction: column;
+  width: 18vw;
+  align-items: center;
+  margin: 0px;
   position: relative;
-  width: 15vw;
 }
 figcaption {
   background-color: rgba(0, 0, 0, 0.7);
-  width: 15vw;
-  margin-top: -2.4em;
-  float: left;
+  width: 18vw;
+  position: absolute;
+  float: inline-end;
   color: white;
   z-index: 1;
-  padding-left: 5%;
-  padding-top: 5%;
+  bottom: 0;
+  left: 0;
 }
