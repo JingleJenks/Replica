@@ -168,7 +168,10 @@ img {
   margin-top: 0px;
 }
 /* RECIPE CARDS */
-
+.recipes {
+  display: flex;
+  flex-direction: row;
+}
 .recipe_card {
   display: grid;
   justify-content: flex-start;
