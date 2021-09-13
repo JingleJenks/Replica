@@ -198,3 +198,46 @@ figcaption {
   bottom: 0;
   left: 0;
 }
+.recipe_info {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 18vw;
+  padding: 0px;
+  align-items: center;
+}
+
+.recipe_info li:nth-child(1) {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  font-size: 1.2rem;
+}
+.recipe_info span {
+  background-color: crimson;
+  color: white;
+  font-size: 1.4rem;
+  height: 1.2rem;
+}
+.recipe_info li:nth-child(2) {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  font-size: 1rem;
+}
+.recipe_info li:nth-child(3) {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  border: var(--button_grey) solid 2px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 5%;
+  border-radius: 5px 5px;
+}
+.recipe_info li:nth-child(4) {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 1rem;
+}
