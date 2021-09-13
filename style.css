@@ -1,3 +1,9 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  border: #e1e1e1 2px solid;
+}
+
 ul {
   list-style-type: none;
 }
