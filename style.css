@@ -66,10 +66,14 @@ ul {
 }
 
 /* BEER CARD */
+
+/* article {
+  width: 80%;
+} */
 .beer_card {
-  width: 50vw;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 .beer_card article {
   text-align: center;
@@ -150,6 +154,98 @@ aside {
   border-radius: 10px 10px;
   float: right;
 }
-img {
+/* img {
   width: 100%;
+} */
+/* MINI TITLE */
+.mini_title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2vw;
+  margin-top: 5vw;
+}
+.see_all {
+  margin: 0px;
+}
+.from {
+  margin-top: 0px;
+}
+/* RECIPE CARDS */
+.recipes {
+  display: grid;
+  /* grid-gap: 1rem; */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.recipe_card {
+  display: grid;
+  justify-content: flex-start;
+  width: 13vw;
+}
+
+.recipe_sq {
+  width: 13vw;
+  height: auto;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  width: 13vw;
+  align-items: center;
+  margin: 0px;
+  position: relative;
+}
+figcaption {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 13vw;
+  position: absolute;
+  float: inline-end;
+  color: white;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+}
+.recipe_info {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  width: 13vw;
+  padding: 0px;
+  align-items: center;
+}
+
+.recipe_info li:nth-child(1) {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  font-size: 1.2rem;
+}
+.recipe_info span {
+  background-color: crimson;
+  color: white;
+  font-size: 1.4rem;
+  height: 1.2rem;
+}
+.recipe_info li:nth-child(2) {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  font-size: 1rem;
+}
+.recipe_info li:nth-child(3) {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  border: var(--button_grey) solid 2px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 5%;
+  border-radius: 5px 5px;
+}
+.recipe_info li:nth-child(4) {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 1rem;
 }
