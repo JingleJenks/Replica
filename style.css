@@ -1,9 +1,17 @@
-nav {
+ul {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   border: #e1e1e1 2px solid;
+  list-style-type: none;
 }
 
-ul {
-  list-style-type: none;
+.nav_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav_right li {
+  margin-right: 1vw;
 }
