@@ -175,6 +175,7 @@ aside {
 
 .recipes {
   display: grid;
+  row-gap: 1.5vw;
   /* grid-gap: 1rem; */
   grid-template-columns: repeat(6, minmax(150px, 1fr));
   margin: 2vw;
