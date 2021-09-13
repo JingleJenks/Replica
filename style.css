@@ -170,3 +170,19 @@ img {
 .from {
   margin-top: 0px;
 }
+figure {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 15vw;
+}
+figcaption {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 15vw;
+  margin-top: -2.4em;
+  float: left;
+  color: white;
+  z-index: 1;
+  padding-left: 5%;
+  padding-top: 5%;
+}
