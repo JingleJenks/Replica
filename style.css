@@ -9,6 +9,9 @@
 body {
   padding: 0px;
   margin: 0px;
+  font-family: neue-haas-unica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 ul {
@@ -216,6 +219,7 @@ figcaption {
   width: 13vw;
   padding: 0px;
   align-items: center;
+  border: none;
 }
 
 .recipe_info li:nth-child(1) {
