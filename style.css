@@ -21,7 +21,6 @@ ul {
   border: #e1e1e1 1px solid;
   list-style-type: none;
   padding: 0.5vw;
-
   margin: 0px;
 }
 
@@ -30,11 +29,10 @@ ul {
   border-radius: 5px 5px;
   width: 30vw;
   padding-left: 1vw;
+  padding-bottom: 0px;
   color: var(--small_text);
-  padding: 0.5vw;
 }
 .nav_center {
-  padding: 0.5vw;
   font-size: 1.7rem;
   width: 20vw;
   font-family: bree, sans-serif;
@@ -53,9 +51,9 @@ ul {
 .nav_right li {
   margin-right: 1vw;
   padding: 0.5vw;
-  padding-right: 2vw;
-  padding-left: 2vw;
-  border-radius: 10px 10px;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  border-radius: 10vw 10vw;
 }
 
 .nav_right li:first-child {
