@@ -157,6 +157,11 @@ aside {
   border-radius: 10px 10px;
   float: right;
 }
+
+.beer_card img {
+  margin-top: 2vw;
+}
+
 /* img {
   width: 100%;
 } */
