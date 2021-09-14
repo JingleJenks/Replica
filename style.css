@@ -275,3 +275,30 @@ figcaption {
   color: var(--small_text);
   font-size: 0.7rem;
 }
+/* FOOTER */
+footer {
+  background-color: var(--button_grey);
+  height: 10vw;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 2, auto;
+  justify-items: center;
+  padding: 6vw;
+  padding-top: 2vw;
+}
+
+ol {
+  color: var(--small_text);
+  list-style-type: none;
+}
+
+ol li:first-child {
+  font-weight: 700;
+  color: black;
+}
+footer p {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  color: rgb(184, 184, 184);
+}
