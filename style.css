@@ -35,10 +35,15 @@ ul {
 }
 .nav_center {
   padding: 0.5vw;
-  font-size: 20px;
+  font-size: 1.7rem;
   width: 20vw;
+  font-family: bree, sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
-
+.nav_center strong {
+  font-weight: 800;
+}
 .nav_right {
   display: flex;
   text-align: center;
